@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"D:/persona_projects/static/.claude/worktrees/laughing-mcclintock\" status)",
+      "Bash(git worktree:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}
