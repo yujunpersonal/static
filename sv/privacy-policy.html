@@ -31,110 +31,172 @@
 </head>
 <body>
   <h1>Integritetspolicy</h1>
-  <p class="meta"><strong>Senast uppdaterad:</strong> 13 mars 2026</p>
+  <p class="meta"><strong>Senast uppdaterad:</strong> 27 april 2026</p>
 
   <p>
-    Denna Integritetspolicy förklarar hur vi samlar in, använder och skyddar information när du använder våra appar som
-    distribueras via Apple App Store.
+    Denna integritetspolicy beskriver hur vi samlar in, använder och skyddar information när du
+    använder våra appar som distribueras via Apple App Store.
   </p>
 
-  <h2>1. Information Vi Samlar In</h2>
-  <p>Beroende på vilka funktioner du använder kan vi samla in:</p>
+  <h2>1. Data vi samlar in och hur vi använder den</h2>
+  <p>
+    Olika appar från oss samlar in olika kategorier av data beroende på vilka funktioner du
+    använder. Kategorierna nedan beskriver det maximala omfånget i alla våra appar; en enskild
+    app samlar endast in det som krävs för dess funktioner.
+  </p>
   <ul>
-    <li><strong>Kontoinformation:</strong> såsom e-postadress, visningsnamn och inloggningsuppgifter.</li>
-    <li><strong>Köpdata:</strong> transaktionsstatus för köp i appen och prenumerationer (exempelvis aktiv/utgången).</li>
-    <li><strong>Användarinnehåll:</strong> foton och andra filer som du laddar upp för appfunktioner.</li>
-    <li><strong>Användnings- och enhetsdata:</strong> appdiagnostik, kraschloggar, grundläggande enhet/appversionsinformation.</li>
-    <li><strong>Lokalt lagrad data:</strong> inställningar, cachefiler och inställningar som sparats på din enhet.</li>
-    <li><strong>Cookie- eller liknande identifierardata:</strong> där webbvyer eller webbaserade komponenter används.</li>
-    <li><strong>AI-interaktionsdata:</strong> prompts, genererade resultat och feedback som skickas via AI-funktioner.</li>
+    <li>
+      <strong>Ljudinspelningar.</strong> Spelas in av enhetens mikrofon endast när du aktivt
+      startar en inspelning eller röstinteraktion i appen. Används för att transkribera vad du
+      sagt och, där det är tillämpligt, för att skicka din talade förfrågan till en AI-tjänst så
+      att appen kan svara.
+    </li>
+    <li>
+      <strong>Transkriptioner och textprompter.</strong> Textversionen av din röstinmatning, samt
+      eventuell text du skriver in i ett prompt- eller chattfält. Används för att generera appens
+      svar och, när appen stöder samtalshistorik, för att visa tidigare interaktioner på din
+      enhet.
+    </li>
+    <li>
+      <strong>Bilder och foton.</strong> Endast de specifika bilder du väljer i appen (till
+      exempel när du väljer en avatar). Används enbart för det syfte i appen som du valde dem för.
+    </li>
+    <li>
+      <strong>Köp- och prenumerationsinformation.</strong> Tillhandahålls av Apples StoreKit när
+      du gör ett köp. Vi tar emot ett transaktions-id och prenumerationsstatus; vi tar inte emot
+      dina betalningsuppgifter.
+    </li>
+    <li>
+      <strong>Lokalt lagrade inställningar.</strong> Appinställningar, språkval och (där det är
+      tillämpligt) den API-nyckel som du väljer att tillhandahålla för en AI-tjänst från tredje
+      part. Dessa lagras på din enhet — inställningar i systemets standardlagring och API-nycklar
+      i iOS-nyckelringen (Keychain). De överförs inte till oss.
+    </li>
+    <li>
+      <strong>Diagnostik.</strong> Kraschloggar och aggregerade, icke-identifierande
+      prestandadata, endast om du har aktiverat detta i iOS Inställningar → Sekretess och
+      säkerhet → Analys och förbättringar.
+    </li>
+  </ul>
+  <p>
+    Vi samlar inte in ditt namn, din e-postadress, din kontaktlista, exakt plats eller
+    enhetsidentifierare som används för annonsering. Vi säljer inte dina data och vi använder inte
+    dina data för att träna någon maskininlärningsmodell.
+  </p>
+
+  <h2>2. AI-funktioner och AI-leverantörer från tredje part</h2>
+  <p>
+    Vissa av våra appar innehåller funktioner som drivs av tjänster för artificiell intelligens
+    från tredje part. När en app erbjuder en sådan funktion kommer appens beskrivning i appen och
+    en samtyckesfråga att informera dig om vilken leverantör som används innan några av dina data
+    skickas.
+  </p>
+  <p>
+    Beroende på appen och den leverantör du väljer kan följande data överföras direkt från din
+    enhet till en eller flera av dessa leverantörer:
+  </p>
+  <ul>
+    <li>Ljudinspelningar du skapar i appen</li>
+    <li>Transkriptioner av ditt ljud</li>
+    <li>Textprompter du skriver</li>
+    <li>Samtalshistorik som behövs för att ge AI:n kontext för dess svar</li>
+  </ul>
+  <p>De AI-tjänster från tredje part som vi kan överföra dessa data till är:</p>
+  <ul>
+    <li>
+      <strong>OpenAI, L.L.C.</strong> — API:er för tal-till-text, språkmodell och text-till-tal.
+      Se OpenAI:s integritetspolicy på
+      <a href="https://openai.com/policies/privacy-policy">https://openai.com/policies/privacy-policy</a>
+      och deras policy för API-dataanvändning på
+      <a href="https://openai.com/policies/api-data-usage-policies">https://openai.com/policies/api-data-usage-policies</a>.
+    </li>
+    <li>
+      <strong>Anthropic, PBC</strong> — språkmodell-API:er (Claude). Se Anthropics
+      integritetspolicy på
+      <a href="https://www.anthropic.com/legal/privacy">https://www.anthropic.com/legal/privacy</a>.
+    </li>
+    <li>
+      <strong>Google LLC</strong> — API:er för Gemini-språkmodellen. Se Googles integritetspolicy
+      på
+      <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+      och Google AI-villkoren på
+      <a href="https://ai.google.dev/gemini-api/terms">https://ai.google.dev/gemini-api/terms</a>.
+    </li>
+  </ul>
+  <p>
+    När en app stöder modellen "ta med din egen nyckel" — det vill säga att du anger din egen
+    API-nyckel för AI-leverantören — skickas dina data direkt från din enhet till den
+    leverantören under ditt eget konto hos dem, och din användning regleras av ditt avtal med den
+    leverantören.
+  </p>
+  <p>
+    Vi har granskat varje leverantörs publicerade policyer och kräver, i kraft av att vi använder
+    deras API:er enligt deras kommersiella villkor, att de tillhandahåller skydd för dina data
+    som motsvarar det som beskrivs i denna policy. Enligt de policyer som länkas ovan använder
+    dessa leverantörer som standard inte API-indata eller -utdata för att träna sina modeller.
+  </p>
+
+  <h2>3. Dina val och hur du raderar data</h2>
+  <ul>
+    <li>
+      Du kan när som helst hindra appen från att använda AI-funktioner genom att ta bort
+      API-nyckeln i appens inställningar (där det är tillämpligt) eller genom att avböja
+      samtyckesfrågan första gången den visas.
+    </li>
+    <li>
+      Du kan radera all samtalshistorik och inspelningar som lagras på din enhet från appens
+      inställningar.
+    </li>
+    <li>
+      Du kan när som helst radera appen, vilket tar bort alla lokalt lagrade data, inklusive alla
+      sparade API-nycklar i nyckelringen.
+    </li>
+    <li>
+      För att begära radering av eventuella data vi har om dig, kontakta oss på adressen nedan.
+    </li>
   </ul>
 
-  <h2>2. Hur Vi Använder Information</h2>
-  <p>Vi använder insamlad information för att:</p>
-  <ul>
-    <li>Tillhandahålla och upprätthålla appens funktionalitet.</li>
-    <li>Möjliggöra kontoskapande, inloggning och kontosäkerhet.</li>
-    <li>Behandla och validera köp i appen och prenumerationsåtkomst.</li>
-    <li>Lagra och visa uppladdade bilder och relaterat användarinnehåll.</li>
-    <li>Förbättra produktkvaliteten, inklusive kvalitet och säkerhet för AI-funktioner.</li>
-    <li>Upptäcka bedrägerier, missbruk och tekniska problem.</li>
-    <li>Följa rättsliga skyldigheter.</li>
-  </ul>
-
-  <h2>3. Köp i appen och Prenumerationer</h2>
+  <h2>4. Köp i appen och prenumerationer</h2>
   <p>
-    Betalningar hanteras av Apple, inte direkt av oss. Vi kan få prenumerationsstatus och transaktionsmetadata som
-    behövs för att tillhandahålla betalfunktioner och kundsupport.
+    Betalningar hanteras av Apple, inte direkt av oss. Vi kan ta emot prenumerationsstatus och
+    transaktionsmetadata som krävs för att tillhandahålla betalda funktioner och kundsupport.
   </p>
 
-  <h2>4. Lokal Lagring</h2>
+  <h2>5. Barn</h2>
   <p>
-    Vissa data lagras lokalt på din enhet för prestanda och offlinefunktionalitet. Du kan ta bort lokal appdata
-    genom att radera appdata eller avinstallera appen, beroende på dina enhetsinställningar.
+    Våra appar är avsedda för en allmän publik och riktar sig inte till barn under 13 år (eller
+    motsvarande ålder i din jurisdiktion). Vi samlar inte medvetet in personlig information från
+    barn under 13 år. Om du tror att ett barn har lämnat oss personlig information, kontakta oss
+    så raderar vi den.
   </p>
 
-  <h2>5. Cookies och Liknande Teknologier</h2>
+  <h2>6. Datalagring</h2>
   <p>
-    Om appen innehåller webbaserat innehåll kan cookies eller liknande teknologier användas för autentisering, funktion
-    och analys. Du kan hantera cookieinställningar via enhetens/webbläsarens kontroller där det är tillgängligt.
+    Vi behåller lokalt lagrade appdata så länge appen är installerad på din enhet. Köpregister
+    som är kopplade till ditt Apple-ID behålls i enlighet med Apples krav och tillämplig
+    skattelagstiftning. Vi upprätthåller inte serversidiga konton eller profiler för dig.
   </p>
 
-  <h2>6. Kontoskapande och Hantering</h2>
+  <h2>7. Säkerhet</h2>
   <p>
-    Om kontofunktioner är aktiverade behandlar vi dina kontouppgifter för att tillhandahålla inloggnings-, profil- och supporttjänster.
-    Du ansvarar för att hålla dina kontouppgifter hemliga.
+    API-nycklar som du tillhandahåller lagras i iOS-nyckelringen, som krypteras av operativsystemet.
+    Nätverksbegäranden till AI-leverantörer från tredje part görs över HTTPS.
   </p>
 
-  <h2>7. Uppladdning och Lagring av Foton</h2>
+  <h2>8. Ändringar av denna policy</h2>
   <p>
-    Foton du laddar upp kan lagras hos säkra lagringsleverantörer för att tillhandahålla appens grundläggande funktionalitet.
-    Undvik att ladda upp innehåll som du inte har rätt att använda.
+    Vi kan uppdatera denna policy då och då. Datumet "Senast uppdaterad" ovan återspeglar den
+    senaste ändringen. Väsentliga ändringar kommer att återspeglas i samtyckesflödet i appen vid
+    nästa start.
   </p>
 
-  <h2>8. Användning av AI-funktioner</h2>
+  <h2>9. Kontakt</h2>
   <p>
-    Våra appar kan innehålla AI-drivna funktioner. AI-resultat kan vara felaktiga eller ofullständiga. Du bör självständigt
-    granska AI-genererat innehåll innan du förlitar dig på det. Vi kan använda AI-interaktionsdata för att förbättra
-    kvaliteten och förhindra missbruk.
-  </p>
-
-  <h2>9. Datadelning</h2>
-  <p>Vi kan dela data med:</p>
-  <ul>
-    <li>Tjänsteleverantörer (hosting, analys, kundsupport, lagring, AI-bearbetning).</li>
-    <li>Betalningsplattformspartner i den mån det krävs för transaktionsvalidering.</li>
-    <li>Myndigheter där så krävs enligt lag eller rättsprocess.</li>
-  </ul>
-
-  <h2>10. Dataretention</h2>
-  <p>
-    Vi behåller information så länge som behövs för att tillhandahålla tjänster, uppfylla rättsliga skyldigheter, lösa tvister
-    och verkställa avtal. Retentionsperioden varierar beroende på datatyp och rättsliga krav.
-  </p>
-
-  <h2>11. Dina Rättigheter</h2>
-  <p>
-    Beroende på var du befinner dig kan du ha rätt att få tillgång till, korrigera, radera eller begränsa behandlingen av dina personuppgifter.
-    För att skicka en begäran, kontakta oss via supportkanalen nedan.
-  </p>
-
-  <h2>12. Barn</h2>
-  <p>
-    Våra appar är inte avsedda för barn under den ålder som krävs enligt tillämplig lag, om inte annat uttryckligen anges.
-    Om du tror att ett barn har lämnat personuppgifter, kontakta oss så att vi kan vidta lämpliga åtgärder.
-  </p>
-
-  <h2>13. Ändringar av Denna Policy</h2>
-  <p>
-    Vi kan uppdatera denna policy från tid till annan. Väsentliga uppdateringar återspeglas genom att ändra datumet "Senast uppdaterad".
-  </p>
-
-  <h2>14. Kontakt</h2>
-  <p>
-    För integritets- eller dataförfrågningar, besök vår <a href="support.html">Supportsida</a>.
-    Du kan också granska <a href="user-privacy.html">Användarintegritet</a>, vår <a href="eula.html">EULA</a>
-    och <a href="terms-of-use.html">Användarvillkor</a>.
+    För integritets- eller datafrågor, mejla oss på
+    <a href="mailto:yujun.china@gmail.com">yujun.china@gmail.com</a>.
+    Du kan även besöka vår <a href="support.html">supportsida</a> eller läsa vår
+    <a href="user-privacy.html">information om användarintegritet</a>,
+    <a href="eula.html">EULA</a> och <a href="terms-of-use.html">användarvillkor</a>.
   </p>
 </body>
 </html>

@@ -31,110 +31,167 @@
 </head>
 <body>
   <h1>Zásady ochrany osobních údajů</h1>
-  <p class="meta"><strong>Poslední aktualizace:</strong> 13. března 2026</p>
+  <p class="meta"><strong>Poslední aktualizace:</strong> 27. dubna 2026</p>
 
   <p>
-    Tyto Zásady ochrany osobních údajů vysvětlují, jak shromažďujeme, používáme a chráníme informace, když používáte naše aplikace
-    distribuované prostřednictvím Apple App Store.
+    Tyto zásady ochrany osobních údajů vysvětlují, jak shromažďujeme, používáme a chráníme informace,
+    když používáte naše aplikace distribuované prostřednictvím Apple App Store.
   </p>
 
-  <h2>1. Informace, které shromažďujeme</h2>
-  <p>V závislosti na funkcích, které používáte, můžeme shromažďovat:</p>
+  <h2>1. Údaje, které shromažďujeme, a jak je používáme</h2>
+  <p>
+    Různé naše aplikace shromažďují různé kategorie údajů v závislosti na funkcích, které využíváte.
+    Níže uvedené kategorie popisují maximální rozsah napříč našimi aplikacemi; jednotlivá aplikace
+    shromažďuje pouze to, co je nezbytné pro její funkce.
+  </p>
   <ul>
-    <li><strong>Informace o účtu:</strong> jako e-mailová adresa, zobrazované jméno a přihlašovací údaje.</li>
-    <li><strong>Údaje o nákupech:</strong> stav transakcí pro nákupy v aplikaci a předplatné (např. aktivní/vypršelý stav).</li>
-    <li><strong>Uživatelský obsah:</strong> fotografie a další soubory, které nahráváte pro funkce aplikace.</li>
-    <li><strong>Údaje o používání a zařízení:</strong> diagnostika aplikace, protokoly pádu, základní informace o zařízení/verzi aplikace.</li>
-    <li><strong>Lokálně uložená data:</strong> preference, soubory v mezipaměti a nastavení uložená ve vašem zařízení.</li>
-    <li><strong>Údaje o souborech cookie nebo podobných identifikátorech:</strong> kde se používají webová zobrazení nebo webové komponenty.</li>
-    <li><strong>Údaje o interakci s AI:</strong> výzvy, vygenerované výstupy a zpětná vazba odeslaná prostřednictvím funkcí AI.</li>
+    <li>
+      <strong>Zvukové nahrávky.</strong> Zaznamenány mikrofonem vašeho zařízení pouze tehdy, když
+      v aplikaci aktivně spustíte nahrávání nebo hlasovou interakci. Slouží k přepisu toho, co jste
+      řekli, a v příslušných případech k odeslání vašeho mluveného požadavku službě AI, aby aplikace
+      mohla odpovědět.
+    </li>
+    <li>
+      <strong>Přepisy a textové vstupy.</strong> Textová verze vašeho hlasového vstupu plus jakýkoli
+      text, který napíšete do pole pro pokyn nebo chat. Slouží ke generování odpovědi aplikace
+      a v aplikacích, které podporují historii konverzací, k zobrazení minulých interakcí na vašem
+      zařízení.
+    </li>
+    <li>
+      <strong>Obrázky a fotografie.</strong> Pouze konkrétní obrázky, které v aplikaci vyberete
+      (například při výběru avataru). Používají se výhradně pro účel v rámci aplikace, pro který
+      jste je zvolili.
+    </li>
+    <li>
+      <strong>Informace o nákupech a předplatném.</strong> Poskytuje je Apple StoreKit při provedení
+      nákupu. Obdržíme identifikátor transakce a stav předplatného; neobdržíme žádné platební údaje.
+    </li>
+    <li>
+      <strong>Lokálně uložené předvolby.</strong> Nastavení aplikace, volba jazyka a (případně)
+      klíč API, který se rozhodnete poskytnout pro službu AI třetí strany. Tyto údaje jsou uloženy
+      ve vašem zařízení — předvolby v systémovém úložišti výchozích hodnot a klíče API v Klíčence
+      systému iOS. Nejsou nám předávány.
+    </li>
+    <li>
+      <strong>Diagnostika.</strong> Záznamy o pádech a agregované, neidentifikační údaje o výkonu,
+      pouze pokud jste tuto možnost povolili v Nastavení iOS → Soukromí a zabezpečení → Analytika
+      a vylepšení.
+    </li>
+  </ul>
+  <p>
+    Neshromažďujeme vaše jméno, e-mailovou adresu, seznam kontaktů, přesnou polohu ani identifikátory
+    zařízení používané k inzerci. Vaše údaje neprodáváme a nepoužíváme je k trénování žádného modelu
+    strojového učení.
+  </p>
+
+  <h2>2. Funkce AI a poskytovatelé AI třetích stran</h2>
+  <p>
+    Některé naše aplikace obsahují funkce poháněné službami umělé inteligence třetích stran. Pokud
+    aplikace takovou funkci nabízí, popis v aplikaci a souhlasná výzva vás informují o tom, který
+    poskytovatel je používán, ještě před odesláním jakýchkoli vašich údajů.
+  </p>
+  <p>
+    V závislosti na aplikaci a poskytovateli, kterého si zvolíte, mohou být následující údaje
+    přenášeny přímo z vašeho zařízení k jednomu nebo více těmto poskytovatelům:
+  </p>
+  <ul>
+    <li>Zvukové nahrávky, které v aplikaci vytvoříte</li>
+    <li>Přepisy vašeho zvuku</li>
+    <li>Textové pokyny, které napíšete</li>
+    <li>Historie konverzace potřebná k tomu, aby AI měla kontext pro svou odpověď</li>
+  </ul>
+  <p>Služby AI třetích stran, kterým můžeme tyto údaje předávat, jsou:</p>
+  <ul>
+    <li>
+      <strong>OpenAI, L.L.C.</strong> — API pro převod řeči na text, jazykové modely a převod textu
+      na řeč. Zásady ochrany osobních údajů OpenAI najdete na
+      <a href="https://openai.com/policies/privacy-policy">https://openai.com/policies/privacy-policy</a>
+      a zásady použití dat API na
+      <a href="https://openai.com/policies/api-data-usage-policies">https://openai.com/policies/api-data-usage-policies</a>.
+    </li>
+    <li>
+      <strong>Anthropic, PBC</strong> — API jazykových modelů (Claude). Zásady ochrany osobních
+      údajů Anthropic najdete na
+      <a href="https://www.anthropic.com/legal/privacy">https://www.anthropic.com/legal/privacy</a>.
+    </li>
+    <li>
+      <strong>Google LLC</strong> — API jazykového modelu Gemini. Zásady ochrany osobních údajů
+      Google najdete na <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+      a podmínky Google AI na
+      <a href="https://ai.google.dev/gemini-api/terms">https://ai.google.dev/gemini-api/terms</a>.
+    </li>
+  </ul>
+  <p>
+    Pokud aplikace podporuje model „přines si vlastní klíč“ — tedy si poskytujete vlastní klíč API
+    pro poskytovatele AI — vaše údaje se odesílají přímo z vašeho zařízení tomuto poskytovateli pod
+    vaším vlastním účtem u něj a vaše používání se řídí vaší smlouvou s tímto poskytovatelem.
+  </p>
+  <p>
+    Zveřejněné zásady každého z těchto poskytovatelů jsme přezkoumali a tím, že používáme jejich
+    rozhraní API za jejich komerčních podmínek, požadujeme, aby vašim údajům poskytovali ochranu
+    rovnocennou té popsané v těchto zásadách. Podle výše uvedených zásad tito poskytovatelé ve
+    výchozím nastavení nepoužívají vstupy ani výstupy API k trénování svých modelů.
+  </p>
+
+  <h2>3. Vaše možnosti a jak smazat údaje</h2>
+  <ul>
+    <li>
+      Používání funkcí AI v aplikaci můžete kdykoli zastavit odstraněním klíče API v nastavení
+      aplikace (kde je to relevantní) nebo odmítnutím souhlasné výzvy při jejím prvním zobrazení.
+    </li>
+    <li>
+      Veškerou historii konverzací a nahrávky uložené ve vašem zařízení můžete odstranit z nastavení
+      aplikace.
+    </li>
+    <li>
+      Aplikaci můžete kdykoli odinstalovat, čímž se odstraní všechna lokálně uložená data, včetně
+      jakéhokoli klíče API uloženého v Klíčence.
+    </li>
+    <li>
+      Pokud chcete požádat o smazání jakýchkoli údajů, které o vás máme, kontaktujte nás na adrese
+      uvedené níže.
+    </li>
   </ul>
 
-  <h2>2. Jak používáme informace</h2>
-  <p>Shromážděné informace používáme k:</p>
-  <ul>
-    <li>Poskytování a udržování funkčnosti aplikace.</li>
-    <li>Umožnění vytvoření účtu, přihlášení a zabezpečení účtu.</li>
-    <li>Zpracování a ověření nákupů v aplikaci a přístupu k předplatnému.</li>
-    <li>Ukládání a zobrazování nahraných obrázků a souvisejícího uživatelského obsahu.</li>
-    <li>Zlepšování kvality produktu, včetně kvality a bezpečnosti funkcí AI.</li>
-    <li>Odhalování podvodů, zneužití a technických problémů.</li>
-    <li>Plnění zákonných povinností.</li>
-  </ul>
-
-  <h2>3. Nákupy v aplikaci a Předplatné</h2>
+  <h2>4. Nákupy v aplikaci a předplatná</h2>
   <p>
-    Platby zpracovává Apple, nikoli přímo my. Můžeme obdržet stav předplatného a metadata transakcí potřebná
-    k poskytování placených funkcí a zákaznické podpory.
+    Platby zpracovává Apple, nikoli my přímo. Můžeme přijímat stav předplatného a metadata transakcí
+    nezbytná pro poskytování placených funkcí a zákaznické podpory.
   </p>
 
-  <h2>4. Lokální úložiště</h2>
+  <h2>5. Děti</h2>
   <p>
-    Některá data jsou uložena lokálně ve vašem zařízení kvůli výkonu a offline funkčnosti. Lokální data aplikace můžete
-    odstranit smazáním dat aplikace nebo odinstalací aplikace, v závislosti na nastavení vašeho zařízení.
+    Naše aplikace jsou určeny obecnému publiku a nejsou určeny dětem mladším 13 let (nebo
+    odpovídajícího věku ve vaší jurisdikci). Vědomě neshromažďujeme osobní údaje od dětí mladších
+    13 let. Pokud se domníváte, že nám dítě poskytlo osobní údaje, kontaktujte nás a my je smažeme.
   </p>
 
-  <h2>5. Soubory cookie a Podobné technologie</h2>
+  <h2>6. Uchovávání údajů</h2>
   <p>
-    Pokud aplikace obsahuje webový obsah, mohou být soubory cookie nebo podobné technologie používány pro ověřování, provoz
-    funkcí a analytiku. Nastavení souborů cookie můžete spravovat prostřednictvím ovládacích prvků zařízení/prohlížeče, pokud jsou k dispozici.
+    Lokálně uložená data aplikace uchováváme po dobu, kdy je aplikace nainstalována ve vašem
+    zařízení. Záznamy o nákupech spojených s vaším Apple ID jsou uchovávány tak, jak vyžaduje Apple
+    a platné daňové zákony. Pro vás neudržujeme žádné serverové účty ani profily.
   </p>
 
-  <h2>6. Vytvoření a Správa účtu</h2>
+  <h2>7. Zabezpečení</h2>
   <p>
-    Pokud jsou funkce účtu povoleny, zpracováváme údaje o vašem účtu pro poskytování přihlašovacích, profilových a podpůrných služeb.
-    Odpovídáte za zachování důvěrnosti svých přihlašovacích údajů.
+    Klíče API, které poskytnete, jsou uloženy v Klíčence systému iOS, která je šifrována operačním
+    systémem. Síťové požadavky na poskytovatele AI třetích stran jsou prováděny přes HTTPS.
   </p>
 
-  <h2>7. Nahrávání a Ukládání fotografií</h2>
+  <h2>8. Změny těchto zásad</h2>
   <p>
-    Fotografie, které nahráváte, mohou být uloženy u zabezpečených poskytovatelů úložiště pro poskytování základní funkcionality aplikace.
-    Prosíme, vyhýbejte se nahrávání obsahu, ke kterému nemáte práva na použití.
+    Tyto zásady můžeme čas od času aktualizovat. Datum „Poslední aktualizace“ uvedené výše odráží
+    nejnovější změnu. Podstatné změny se projeví v souhlasném postupu v aplikaci při dalším spuštění.
   </p>
 
-  <h2>8. Použití funkcí AI</h2>
+  <h2>9. Kontakt</h2>
   <p>
-    Naše aplikace mohou obsahovat funkce podporované AI. Výstupy AI mohou být nepřesné nebo neúplné. Měli byste nezávisle
-    zkontrolovat obsah generovaný AI, než na něj budete spoléhat. Můžeme používat údaje o interakci s AI ke zlepšení kvality
-    a prevenci zneužití.
-  </p>
-
-  <h2>9. Sdílení dat</h2>
-  <p>Data můžeme sdílet s:</p>
-  <ul>
-    <li>Poskytovateli služeb (hosting, analytika, zákaznická podpora, úložiště, zpracování AI).</li>
-    <li>Partnery platebních platforem, jak je vyžadováno pro ověření transakcí.</li>
-    <li>Orgány, pokud to vyžaduje zákon nebo právní proces.</li>
-  </ul>
-
-  <h2>10. Uchovávání dat</h2>
-  <p>
-    Informace uchováváme tak dlouho, jak je to nezbytné pro poskytování služeb, plnění zákonných povinností, řešení sporů
-    a vymáhání dohod. Doba uchovávání se liší podle typu dat a zákonných požadavků.
-  </p>
-
-  <h2>11. Vaše práva</h2>
-  <p>
-    V závislosti na vaší poloze můžete mít právo na přístup, opravu, výmaz nebo omezení zpracování vašich osobních údajů.
-    Pro podání žádosti nás kontaktujte prostřednictvím níže uvedeného kanálu podpory.
-  </p>
-
-  <h2>12. Děti</h2>
-  <p>
-    Naše aplikace nejsou určeny pro děti mladší věku požadovaného platnými zákony, pokud není výslovně uvedeno jinak.
-    Pokud si myslíte, že dítě poskytlo osobní údaje, kontaktujte nás, abychom mohli přijmout odpovídající opatření.
-  </p>
-
-  <h2>13. Změny těchto zásad</h2>
-  <p>
-    Tyto zásady můžeme čas od času aktualizovat. Podstatné aktualizace budou zohledněny změnou data „Poslední aktualizace".
-  </p>
-
-  <h2>14. Kontakt</h2>
-  <p>
-    Pro žádosti týkající se soukromí nebo dat navštivte naši <a href="support.html">Stránku podpory</a>.
-    Můžete si také prohlédnout <a href="user-privacy.html">Soukromí uživatele</a>, naše <a href="eula.html">EULA</a>
-    a <a href="terms-of-use.html">Podmínky použití</a>.
+    Pro žádosti týkající se soukromí nebo údajů nám napište na
+    <a href="mailto:yujun.china@gmail.com">yujun.china@gmail.com</a>.
+    Můžete také navštívit naši <a href="support.html">stránku podpory</a> nebo si přečíst
+    naše <a href="user-privacy.html">oznámení o soukromí uživatele</a>,
+    <a href="eula.html">EULA</a> a <a href="terms-of-use.html">podmínky používání</a>.
   </p>
 </body>
 </html>
